@@ -1,0 +1,47 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "175",
+      "weight": "68",
+      "goal": "Marathon in 3 days - carb loading phase",
+      "restrictions": "Nut allergy"
+    },
+    "solution_criteria": [
+      "High-carbohydrate meals throughout the day",
+      "No nuts or nut-based ingredients included",
+      "Covers breakfast, lunch, dinner and snacks"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a marathon runner who needs high-carb loading and has a nut allergy"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "95",
+      "goal": "Powerlifting cutting phase - maintain strength while losing fat, target 1800 calories with 200g+ protein daily",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Total calories approximately 1800",
+      "Protein content 200g or higher",
+      "Includes all main meals for one day"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a powerlifter in a cutting phase requiring high protein (200g+) and calorie restriction (1800 calories)"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "72 kg",
+      "goal": "Maintain endurance and muscle recovery for competitive swimming training (2 practices daily)",
+      "restrictions": "No shellfish, lactose intolerant"
+    },
+    "solution_criteria": [
+      "Provides 4000+ calories total across all meals and snacks",
+      "Includes 5-6 eating occasions distributed throughout the day",
+      "Accommodates lactose intolerance and shellfish restriction"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a teenage swimmer (16 years old) needing 4000+ calories distributed across multiple meals and snacks"
+  }
+]

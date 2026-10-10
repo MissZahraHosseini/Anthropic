@@ -1,0 +1,62 @@
+[
+  {
+    "output": "# One-Day Meal Plan for Powerlifting Cutting Phase\n\n**Athlete Profile:** 178cm, 95kg | Goal: Maintain strength while losing fat\n\n* **Daily Calorie Target:** 1800 calories\n* **Macronutrient Breakdown:** Protein (205g), Fat (60g), Carbs (115g)\n\n---\n\n## Meal Plan:\n\n**Breakfast (7:00 AM):** Egg white omelet with whole eggs and vegetables\n* 4 whole eggs (200g) + 4 egg whites (120g), spinach (50g), bell peppers (50g), mushrooms (50g)\n* **Macros:** Protein: 45g, Fat: 20g, Carbs: 8g | **Calories:** 380\n\n**Mid-Morning Snack (10:30 AM):** Protein shake\n* Whey protein isolate (40g) mixed with water (300g), strawberries (100g)\n* **Macros:** Protein: 32g, Fat: 1g, Carbs: 12g | **Calories:** 185\n\n**Lunch (1:00 PM):** Grilled chicken breast with vegetables and rice\n* Chicken breast (200g), broccoli (150g), white rice (80g cooked weight), olive oil for cooking (5g)\n* **Macros:** Protein: 65g, Fat: 10g, Carbs: 25g | **Calories:** 445\n\n**Pre-Workout Snack (4:00 PM):** Lean protein and fruit\n* Low-fat cottage cheese (200g), blueberries (80g)\n* **Macros:** Protein: 26g, Fat: 4g, Carbs: 18g | **Calories:** 208\n\n**Post-Workout Dinner (7:30 PM):** Lean beef with sweet potato\n* Extra lean ground beef (150g), sweet potato (150g), green beans (150g), cooking spray\n* **Macros:** Protein: 37g, Fat: 12g, Carbs: 35g | **Calories:** 400\n\n**Evening Snack (9:30 PM):** Casein protein\n* Casein protein powder (30g) with water, celery sticks (100g) with mustard\n* **Macros:** Protein: 24g, Fat: 1g, Carbs: 7g | **Calories:** 133\n\n---\n\n**Daily Totals:**\n* **Calories:** 1,751\n* **Protein:** 229g\n* **Fat:** 48g\n* **Carbs:** 105g\n\n**Notes for Success:**\n* High protein intake supports muscle preservation during caloric deficit\n* Meals timed around training for optimal performance and recovery\n* Vegetables provide volume and micronutrients while keeping calories low\n* Adequate fat for hormone production and satiety\n* Adjust portions by \u00b125g as needed to hit exact targets",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178",
+        "weight": "95",
+        "goal": "Powerlifting cutting phase - maintain strength while losing fat, target 1800 calories with 200g+ protein daily",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Total calories approximately 1800",
+        "Protein content 200g or higher",
+        "Includes all main meals for one day"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a powerlifter in a cutting phase requiring high protein (200g+) and calorie restriction (1800 calories)"
+    },
+    "score": 10,
+    "reasoning": "The solution fully satisfies all mandatory requirements by providing daily caloric total, macronutrient breakdown, and meals with exact foods, portions, and timing. It also meets all secondary criteria: calories are approximately 1800 (1,751 is 97.3% of target), protein significantly exceeds the 200g minimum at 229g, and includes all main meals for one day plus snacks. The meal plan is compact, concise, and specifically tailored to the powerlifting cutting phase goal. The minor calorie shortfall is negligible and the solution provides practical guidance including adjustment notes."
+  },
+  {
+    "output": "# One-Day Carb-Loading Meal Plan for Marathon Preparation\n\n**Athlete Profile:** 175cm, 68kg, Marathon in 3 days, Nut allergy\n\n**Daily Targets:**\n* **Total Calories:** Approximately 3,200 calories\n* **Macronutrient Breakdown:** Protein (120g), Fat (55g), Carbs (550g)\n* **Carb Focus:** 70% of total calories from carbohydrates for optimal glycogen storage\n\n---\n\n## Meal Plan:\n\n**Breakfast (7:00 AM):** Pancakes made with white flour (120g dry weight) with maple syrup (60g), banana slices (120g), and a glass of orange juice (240g).\n* Protein: 15g, Fat: 8g, Carbs: 145g\n\n**Mid-Morning Snack (10:00 AM):** White bagel (90g) with strawberry jam (30g) and a sports drink (500g).\n* Protein: 10g, Fat: 2g, Carbs: 85g\n\n**Lunch (1:00 PM):** White pasta (150g dry weight) with marinara sauce (150g) and grilled chicken breast (100g). Side of white bread (60g) with honey (20g).\n* Protein: 45g, Fat: 12g, Carbs: 155g\n\n**Afternoon Snack (3:30 PM):** Rice cakes (40g) with honey (25g), dried cranberries (40g), and a banana (120g).\n* Protein: 5g, Fat: 2g, Carbs: 90g\n\n**Pre-Dinner Snack (5:30 PM):** Low-fat fruit yogurt (200g) with granola (40g, nut-free) and blueberries (80g).\n* Protein: 12g, Fat: 5g, Carbs: 65g\n\n**Dinner (7:30 PM):** Baked white potato (300g) with low-fat sour cream (30g), steamed carrots (150g), and baked cod (120g). White dinner roll (50g).\n* Protein: 35g, Fat: 10g, Carbs: 95g\n\n**Evening Snack (9:30 PM):** Pretzels (50g) and apple sauce (150g).\n* Protein: 5g, Fat: 1g, Carbs: 70g\n\n---\n\n**Hydration Note:** Drink 2-3 liters of water throughout the day, in addition to the beverages listed.\n\n**Carb-Loading Strategy:** This plan emphasizes easily digestible, low-fiber carbohydrates to maximize glycogen stores while minimizing GI distress before race day. All foods are nut-free to accommodate the allergy restriction.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "175",
+        "weight": "68",
+        "goal": "Marathon in 3 days - carb loading phase",
+        "restrictions": "Nut allergy"
+      },
+      "solution_criteria": [
+        "High-carbohydrate meals throughout the day",
+        "No nuts or nut-based ingredients included",
+        "Covers breakfast, lunch, dinner and snacks"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a marathon runner who needs high-carb loading and has a nut allergy"
+    },
+    "score": 10,
+    "reasoning": "The solution perfectly satisfies all mandatory requirements by including daily caloric total, macronutrient breakdown, and meals with exact foods, portions, and timing. It also fully meets all secondary criteria: high-carbohydrate meals throughout the day (550g carbs, 70% of calories), complete absence of nuts or nut-based ingredients, and coverage of breakfast, lunch, dinner, and snacks. The plan is appropriately tailored to the specific context of carb-loading 3 days before a marathon, demonstrating proper understanding of the athlete's needs."
+  },
+  {
+    "output": "# One-Day Meal Plan for Competitive Swimmer\n\nBased on your profile (180 cm, 72 kg, dual daily swim practices), here's a nutrition plan designed to support endurance and muscle recovery:\n\n**Daily Targets:**\n* **Total Calories:** Approximately 3,800 calories\n* **Macronutrient Breakdown:** Protein (190g), Fat (115g), Carbs (525g)\n\n---\n\n## Meal Schedule\n\n**Pre-Morning Practice Snack (5:30 AM):**\nBanana (120g) with almond butter (20g) and honey (15g).\n* Protein: 5g, Fat: 10g, Carbs: 50g\n\n**Breakfast (8:00 AM - Post-Morning Practice):**\nScrambled eggs (3 whole eggs, 150g) with avocado (80g), whole wheat toast (80g), and orange juice (250g).\n* Protein: 25g, Fat: 30g, Carbs: 65g\n\n**Mid-Morning Snack (10:30 AM):**\nLactose-free Greek yogurt (200g) with granola (50g) and blueberries (100g).\n* Protein: 25g, Fat: 10g, Carbs: 60g\n\n**Lunch (1:00 PM):**\nGrilled chicken breast (180g) with brown rice (150g cooked weight), roasted sweet potato (200g), and steamed green beans (150g). Olive oil dressing (10g).\n* Protein: 50g, Fat: 18g, Carbs: 110g\n\n**Pre-Afternoon Practice Snack (3:30 PM):**\nWhole grain bagel (90g) with peanut butter (25g) and a sports drink (500g).\n* Protein: 15g, Fat: 15g, Carbs: 85g\n\n**Post-Afternoon Practice Shake (6:00 PM):**\nProtein smoothie with lactose-free milk (300g), banana (120g), oats (40g), and pea protein powder (30g).\n* Protein: 40g, Fat: 8g, Carbs: 70g\n\n**Dinner (7:30 PM):**\nGrilled salmon (170g) with quinoa (100g cooked weight), roasted Brussels sprouts (200g), and mixed green salad (100g) with olive oil vinaigrette (15g).\n* Protein: 45g, Fat: 28g, Carbs: 50g\n\n**Evening Snack (9:30 PM):**\nRice cakes (30g) with cashew butter (20g) and sliced strawberries (100g).\n* Protein: 8g, Fat: 12g, Carbs: 35g\n\n---\n\n## Key Features of This Plan:\n\n* **Shellfish-free:** Uses salmon, chicken, and eggs as primary protein sources\n* **Lactose-free:** Substitutes lactose-free Greek yogurt and lactose-free milk for dairy needs\n* **Timing optimized:** Carb-focused meals before practices, protein-rich meals after for recovery\n* **Hydration support:** Includes sports drinks and high water-content foods\n* **Micronutrient-rich:** Emphasizes colorful vegetables, fruits, and whole grains for vitamins and minerals essential for swimmers\n\nThis plan provides the high energy demands of dual daily swim training while supporting muscle recovery and endurance development.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "72 kg",
+        "goal": "Maintain endurance and muscle recovery for competitive swimming training (2 practices daily)",
+        "restrictions": "No shellfish, lactose intolerant"
+      },
+      "solution_criteria": [
+        "Provides 4000+ calories total across all meals and snacks",
+        "Includes 5-6 eating occasions distributed throughout the day",
+        "Accommodates lactose intolerance and shellfish restriction"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a teenage swimmer (16 years old) needing 4000+ calories distributed across multiple meals and snacks"
+    },
+    "score": 6,
+    "reasoning": "The solution meets all mandatory requirements by including daily caloric total, macronutrient breakdown, and detailed meal specifications. It successfully addresses dietary restrictions and provides adequate eating occasions. However, it fails to meet the secondary criterion of 4000+ calories, providing only 3,800 calories. This represents a significant deficiency in meeting the specified energy needs for dual daily swim training, though the solution is otherwise comprehensive and well-structured."
+  }
+]

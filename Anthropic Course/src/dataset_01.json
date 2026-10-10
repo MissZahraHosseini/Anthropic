@@ -1,0 +1,47 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "185",
+      "weight": "110",
+      "goal": "Powerlifting strength training - need high caloric intake around 4000+ calories with high protein for muscle maintenance and recovery",
+      "restrictions": "No shellfish"
+    },
+    "solution_criteria": [
+      "Meal plan totals approximately 4000+ calories",
+      "Protein intake is appropriately high for powerlifting (at least 200g)",
+      "Plan excludes shellfish"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a powerlifter requiring high caloric intake (4000+ calories) and high protein macros for strength training"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178",
+      "weight": "68",
+      "goal": "Endurance runner training for marathon with morning 10k run at 6am and evening intervals at 6pm, need carb-focused nutrition timed around workouts",
+      "restrictions": "No dairy"
+    },
+    "solution_criteria": [
+      "Includes breakfast, lunch, dinner and snacks totaling 1 day",
+      "Provides carb-rich meals/snacks before and after both training sessions",
+      "Contains no dairy products"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with an endurance runner needing carb-focused meals timed around morning and evening training sessions"
+  },
+  {
+    "prompt_inputs": {
+      "height": "175",
+      "weight": "68",
+      "goal": "Muscle recovery and endurance optimization for competitive swimming",
+      "restrictions": "Vegetarian (no meat, poultry, or fish)"
+    },
+    "solution_criteria": [
+      "Includes plant-based protein sources at each meal",
+      "Provides specific meal timing relative to training",
+      "Addresses micronutrients important for swimmers (iron, omega-3s, or B12)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a vegetarian swimmer requiring plant-based protein sources and specific micronutrients for recovery"
+  }
+]
